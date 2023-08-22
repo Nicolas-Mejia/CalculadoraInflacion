@@ -23,7 +23,7 @@ public class MainClass {
 
         int i=0;
         List<DolarDiario> lst = new ArrayList<DolarDiario>();
-        while(dolarList.get(i).anio >2022 || ( dolarList.get(i).anio == 2022 && dolarList.get(i).mes >giggggggg9)){
+        while(dolarList.get(i).anio >2022 || ( dolarList.get(i).anio == 2022 && dolarList.get(i).mes > 9)){
             if(dolarList.get(i).mes != dolarList.get(i+1).mes){
                 lst.add(dolarList.get(i));
             }
